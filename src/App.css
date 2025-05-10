@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*,
+.geo-regular {
+  font-family: "Michroma", sans-serif;
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* body {
+  background-image: url("https://babelpr.com/wp-content/uploads/2018/08/hacker-2300772_1920.jpg");
+} */

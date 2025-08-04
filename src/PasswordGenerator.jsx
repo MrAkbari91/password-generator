@@ -128,7 +128,7 @@ const PasswordGenerator = () => {
         </h2>
 
         <div className="mb-5 flex items-center justify-between rounded-lg bg-gray-100 px-3 py-4 text-center text-lg break-words text-gray-900 dark:bg-gray-700 dark:text-white cursor-pointer">
-          <span onClick={CopyPassword}>{password || "Generated Password"}</span>
+          <span onClick={CopyPassword} className="w-11/12">{password || "Generated Password"}</span>
           <span onClick={generatePassword}>
             <img src={Refresh} className="w-5" />
           </span>
